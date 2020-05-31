@@ -22,7 +22,7 @@ new_cart = []
 counter = 0 
 while counter < cart.length 
 new_cart_item = find_item_by_name_in_collection(cart[counter][:item],new_cart)
-if new_cart_item != nil 
+if new_cart_item  
   new_cart_item[:count] += 1 
 else
   new_cart_item ={
