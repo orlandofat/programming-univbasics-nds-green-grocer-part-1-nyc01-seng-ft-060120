@@ -7,7 +7,7 @@ collection.each do |i|
    if i[:item] == name
    end
 end
-nil
+name
 end
 
 def consolidate_cart(cart)
