@@ -21,6 +21,7 @@ i < consolidate_cart.size do
   consolidate_cart[i][:item]
   
 end
+i +=1
 end
 
 
