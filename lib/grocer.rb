@@ -2,7 +2,8 @@ def find_item_by_name_in_collection(name, collection)
   # Implement me first!
   #
   # Consult README for inputs and outputs
-grocery_shelf[:item]
+  
+grocery_shelf.each {|i| i == :item}
 end
 
 def consolidate_cart(cart)
