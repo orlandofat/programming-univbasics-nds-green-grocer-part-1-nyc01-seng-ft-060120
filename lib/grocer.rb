@@ -6,6 +6,7 @@ def find_item_by_name_in_collection(name, collection)
 collection.each do |i| 
    if i[:item] == name
    end
+   name
 end
 end
 
