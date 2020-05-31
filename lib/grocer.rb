@@ -19,6 +19,8 @@ def consolidate_cart(cart)
 new_cart = []
 count = 0 
 while count < consolidate_cart.size do
+  
+end
 end
 
 
