@@ -24,8 +24,12 @@ if new_cart_item != nil
   new_cart_item[:count] += 1 
 else
   new_cart_item ={
-    :item => cart[counter]
+    :item => cart[counter][:item],
+    :price => cart[counter][:price],
+    :clearence => cart[counter][:clearence],
+    :count => 1 
   }
+  new_cart << new_cart_item
 end
 count += 1
 end
