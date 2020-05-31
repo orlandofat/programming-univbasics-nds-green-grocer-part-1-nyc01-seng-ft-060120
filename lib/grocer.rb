@@ -8,6 +8,7 @@ collection.each do |i|
     i
    end
 end
+name
 end
 
 def consolidate_cart(cart)
