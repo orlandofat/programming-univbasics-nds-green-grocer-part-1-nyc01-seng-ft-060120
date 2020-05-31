@@ -27,7 +27,7 @@ else
   new_cart_item ={
     :item => cart[counter][:item],
     :price => cart[counter][:price],
-    :clearence => cart[counter][:clearence],
+    :clearance => cart[counter][:clearance],
     :count => 1 
   }
   new_cart << new_cart_item
