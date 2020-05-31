@@ -31,7 +31,7 @@ else
   }
   new_cart << new_cart_item
 end
-count += 1
+counter += 1
 end
 end
 
